@@ -34,6 +34,7 @@ void solve() {
     int array[row][col];
     int rowcol = row * col;
 
+    // input element
     cout << "input " << rowcol << " element : " << endl;
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
@@ -41,6 +42,7 @@ void solve() {
         }
     } cout << endl;
 
+    // display array[r][c]
     cout << "array[" << row << "][" << col << "]" << " : " << endl;
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
@@ -49,6 +51,7 @@ void solve() {
         cout << endl;
     } cout << endl;
 
+    // display array n-element
     cout << "array n-element : " << endl;
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
